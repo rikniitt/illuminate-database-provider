@@ -1,0 +1,28 @@
+{
+    "name": "rikniitt/illuminate-database-provider",
+    "description": "Illuminate Database Service Provider",
+    "type": "metapackage",
+    "license": "MIT",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Riku Niittymäki",
+            "email": "riku.niittymaki@helsinki.fi"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "pimple/pimple": ">=2.1,<4",
+        "illuminate/database": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rikniitt\\Provider\\IlluminateDatabase\\": "src/Rikniitt/Provider/IlluminateDatabase/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
