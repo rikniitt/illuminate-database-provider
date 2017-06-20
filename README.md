@@ -1,7 +1,8 @@
 Illuminate Database Provider
 ============================
 
-Provides Illuminate Database connections as services to Pimple applications.
+Provides [Illuminate Database](https://github.com/illuminate/database/)
+connections as services to Pimple applications.
 
 
 Usage
@@ -60,7 +61,7 @@ Configuration
    Boolean value indicating if the `Illuminate\Database\Capsule\Manager` instance created by `IlluminateDatabaseServiceProvider`
    should be made `global`.
  * **database.settings.eloquent**:
-   Boolean value indicating if the [Eloquent ORM](https://laravel.com/docs/5.4/eloquent) should be set up.
+   Boolean value indicating if the [Eloquent ORM](https://laravel.com/docs/5.2/eloquent) should be set up.
 
 
 Services
@@ -71,13 +72,13 @@ Services
  * **database.connection**:
    Default database connection, instance of [Illuminate\Database\Connection](https://github.com/illuminate/database/blob/master/Connection.php).
    It provides all the basic methods to access and manipulate the database: `select`, `insert`, `update` ... See the Laravel
-   [database documentation](https://laravel.com/docs/5.4/database) for more details. Note that **database.connection** provides as instance
+   [database documentation](https://laravel.com/docs/5.2/database) for more details. Note that **database.connection** provides as instance
    methods most of the static methods of Laravel `DB Facade`.
  * **database.schema**:
    Default database connection schema builder, instance of
    [Illuminate\Database\Schema\Builder](https://github.com/illuminate/database/blob/master/Schema/Builder.php).
    It provides methods for defining and altering the database schema: `create`, `drop`, `hasColumn` ... See the Laravel
-   [migrations documentation](https://laravel.com/docs/5.4/migrations) for more details.
+   [migrations documentation](https://laravel.com/docs/5.2/migrations) for more details.
  * **database.manager**:
    Instance of Illuminate database manager, which was created by `IlluminateDatabaseServiceProvider`, instance of
    [Illuminate\Database\Capsule\Manager](https://github.com/illuminate/database/blob/master/Capsule/Manager.php).
