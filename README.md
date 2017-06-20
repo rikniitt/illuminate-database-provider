@@ -55,7 +55,7 @@ Configuration
  * **database.settings.connections**:
    Array of database connections where the key is name for the connection and it's value
    is array of connection options. Laravel framework contains default
-   [database configurationfile](https://github.com/laravel/laravel/blob/master/config/database.php)
+   [database configuration file](https://github.com/laravel/laravel/blob/master/config/database.php)
    with multiple examples of different database driver options.
  * **database.settings.global**:
    Boolean value indicating if the `Illuminate\Database\Capsule\Manager` instance created by `IlluminateDatabaseServiceProvider`
